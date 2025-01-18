@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5001:5000"   # Map port 5001 on your host to port 5000 inside the container (backend)
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"   # Keep frontend on port 3000 (or change if necessary)

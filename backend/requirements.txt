@@ -1,0 +1,6 @@
+flask
+flask-cors
+aif360
+fairlearn
+pandas
+numpy
